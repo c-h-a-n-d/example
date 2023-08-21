@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>weather forecast</title>
+  <link rel="stylesheet" href="index1.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <script src="index1.js" defer></script>
+</head>
+<body>
+  <h1>Weather Forecast</h1>
+  <div class="container">
+    <div class="weather-input">
+      <div id="location-info"></div>
+      <h3>Enter a city or place</h3>
+      <div id="cityname">
+        <input class="input" type="text" placeholder="city or place" required>
+      </div>
+      <button class="search">Search</button>
+      <div class="separator"></div>
+      <div id="current-location-info"></div>
+      <button id="use-location-button">Use My Location</button>
+    </div>
+    <div class="weather_data">
+      <div class="currernt_weather"></div>
+    </div>
+  </div>
+  <div class="days-forecast">
+    <h2>6-Days Forecast Including Today</h2>
+    <ul class="Weather-Cards">
+      <!-- Weather cards will be populated dynamically -->
+    </ul>
+  </div>
+  <div id="current-location-name"></div>
+</body>
+</html>
